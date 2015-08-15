@@ -1,22 +1,22 @@
 /*______________________________________________________________________________
 Curso: Estructura de Datos, Reconocimiento unidad 1 - UNAD 2015
 
-Funcionalidad del programa: Aplica los operadores new y delete para gesti�n
-din�mica de memoria y hace uso de estructuras y apuntadores. El programa calcula
-el promedio de nota de x n�mero de estudiantes
+Funcionalidad del programa: Aplica los operadores new y delete para gestion
+dinamicamica de memoria y hace uso de estructuras y apuntadores. 
+El programa calcula el promedio de nota de x numero de estudiantes
 (el usuario agrega tantos como desee), imprime nombre y promedio del estudiante
-luego libera la memoria que fue reservada para la creaci�n de los objetos
+luego libera la memoria que fue reservada para la creacion de los objetos
 "Estudiante".
 
 Planteamiento del problema: Desarrollar un programa que haga uso de los
 operadores new y delete para gesti�n din�mica de memoria y tambi�n de
 apuntadores. El programa debe permitir ingresar x n�mero de estudiantes
-(sin preguntar cu�ntos desea ingresar) y cada uno solicita datos de nombre y sus
-3 notas obtenidas en el curso. Cada estudiante es una estructura creada con el
-operador "new". Permitir al usuario imprimir en cualquier momento los promedios
-de cada estudiante obtenidos de una lista apilada (pila). Luego liberar la
-memoria reservada de cada elemento de la pila con el operador "delete" y
-finalizar el programa.
+(sin preguntar cu�ntos desea ingresar) y cada uno solicita datos de nombre 
+y sus 3 notas obtenidas en el curso. Cada estudiante es una estructura creada 
+con el operador "new". Permitir al usuario imprimir en cualquier momento 
+los promedios de cada estudiante obtenidos de una lista apilada (pila). 
+Luego liberar la memoria reservada de cada elemento de la pila con el operador 
+"delete" y finalizar el programa.
 
 Desarrollado por Luis Hernando Benitez, bajo licencia MIT
 GitHub: https://github.com/orgs/UNAD-luisbenitez
@@ -64,7 +64,7 @@ void ingreso(){
 
 	if(ultimo==NULL){//si no hay elementos en la PILA
 		ultimo = aux;//el ultimo ahora tiene el valor del recien ingresado
-		aux->next=NULL;//aux crea un nuevo espacio vacio en el puntero next dfgdfg
+		aux->next=NULL;//aux crea un nuevo espacio vacio en el puntero next
 	}
 	//si ya hay elementos
 	else{
